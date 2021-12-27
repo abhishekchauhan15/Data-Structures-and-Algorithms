@@ -2,11 +2,11 @@
 using namespace std;
 
 void und(){
-     int n, m;
-    cin >> n >> m;
-    vector<int> adjlist[n+1];
+     int e, v;
+    cin >> e >> v;
+    vector<int> adjlist[e+1];
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < v; i++)
     {
         int u, v;
         cin >> u >> v;
@@ -19,11 +19,11 @@ void und(){
 
 
 void dg(){
-     int n, m;
-    cin >> n >> m;
-    vector<int> adjlist[n+1];
+     int e, v;
+    cin >> e >> v;
+    vector<int> adjlist[e+1];
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < v; i++)
     {
         int u, v;
         cin >> u >> v;
@@ -34,11 +34,11 @@ void dg(){
 
 
 void wdg(){
-     int n, m;
-    cin >> n >> m;
-    vector<pair<int,int>> adjlist[n+1];
+     int e, v;
+    cin >> e >> v;
+    vector<pair<int,int>> adjlist[e+1];
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < v; i++)
     {
         int u, v,wt;
         cin >> u >> v>>wt;
