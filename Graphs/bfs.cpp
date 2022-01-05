@@ -22,7 +22,7 @@ int main(int v, vector<int>adj[])
                 bfs.push_back(node);
 
                 //pushing the adjecent nodes in queue
-               for(auto &i t:adj[node]){
+               for(auto &it:adj[node]){
                    if(!vis[it]){
                        q.push(it);
                        vis[it] = 1;
