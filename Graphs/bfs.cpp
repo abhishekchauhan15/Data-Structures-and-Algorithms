@@ -14,7 +14,7 @@ int main(int v, vector<int>adj[])
             // bfs(i);
             queue<int> q;
             q.push(i);
-            vis[i] == 1;
+            vis[i] = 1;
             while (!q.empty())
             {
                 int node = q.front();
